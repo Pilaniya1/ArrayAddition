@@ -1,0 +1,24 @@
+//Given an array of integers, find sum of its elements.
+/*
+Input : arr[] = {1, 2, 3}
+Output : 6
+1 + 2 + 3 = 6
+
+Input : arr[] = {15, 12, 13, 10}
+Output : 50 
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+int arr[3]={1,2,3};
+int sum=0;
+
+for(int i=0;i<3;i++){
+     sum += arr[i];
+
+}
+cout<<"sum="<<sum<<endl;
+return 0;
+}
+
+ 
